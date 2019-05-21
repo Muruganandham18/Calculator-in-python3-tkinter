@@ -10,7 +10,7 @@ me.config(background='Dark gray')
 textin=StringVar()
 operator=""
 
-def clickbut(number):   #lambda:clickbut(1)
+def clickbut(numbers):   #lambda:clickbut(1)
      global operator
      operator=operator+str(numbers)
      textin.set(operator)
