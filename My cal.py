@@ -37,6 +37,8 @@ def equlbut():
      operator=''    
 
 def clrbut():
+     global operator
+     operator=''
      textin.set('')
 
      
